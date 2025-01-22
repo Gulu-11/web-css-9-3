@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #0E0E0E;
+}
+a {
+    text-decoration: none;
+}
+.mainHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    padding: 16px 300px;
+    align-items: center;
+}
+.watchListDiv {
+    display: flex;
+    gap: 24px;
+}
+.burgerIcon {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+.seriesText {
+    color: #7B7B7B;
+}
+.moviesText {
+    color: #FFFFFF;
+}
+.filmboxText {
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+.boxText {
+    color: #AA0000;
+}
+.mcCoyDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.mcCoyDiv a {
+    color: white;
+}
+.arrow {
+    width: 24px;
+    height: 24px;
+}
+.mcCoyImg {
+    width: 40px;
+    height: 40px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.section-1{
+    display: flex;
+    background-image: url("../images/batman\ img.png"), url("../images/batman\ car\ img.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 840px;
+    width: 100%;
+    height: 471px;
+    position: relative;
+    margin-top: 32px;
+}
+.batmanTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: fit-content;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.moveText {
+    color: #7B7B7B;
+}
+.batmanText {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.ratingDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.ratingDiv p {
+    color: #7B7B7B;
+}
+.starDiv {
+    display: flex;
+    gap: 8px;
+}
+.starIcon {
+    width: 19px;
+    height: 18px;
+}
+
+.fantasyDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: fit-content;
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+}
+.fantasyTextDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.fantasyText {
+    display: flex;
+    gap: 12px;
+    color: white;
+}
+.fantasyBigText {
+    font-size: 14px;
+    color: #7B7B7B;
+    line-height: 22px;
+    max-width: 355px;
+    width: 100%;
+}
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.recomText {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    width: fit-content;
+}
+.formDiv {
+    display: flex;
+    gap: 16px;
+}
+#searchInp {
+    background-color: #191919;
+    border-radius: 24px;
+    border: none;
+    padding: 8px 16px 8px 12px;
+    width: 269px;
+    outline-color: #AA0000;
+    color: white;
+}
+select {
+    background-color: #191919;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    outline: none;
+    padding: 8px 12px 8px 16px ;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.cardDiv {
+    display: flex;
+    gap: 24px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 219px;
+}
+.card-1 {
+    background-image: url("../images/back\ img-1.png");
+    background-repeat: no-repeat;
+    
+}
+.card-2 {
+    background-image: url("../images/back\ img-2.png");
+}
+.card-3 {
+    background-image: url("../images/back\ img-3.png");
+}
+.card-4 {
+    background-image: url("../images/back\ img-4.png");
+}
+.card-5 {
+    background-image: url("../images/back\ img-5.png");
+}
+.card-6 {
+    background-image: url("../images/back\ img-6.png");
+}
+.card-7 {
+    background-image: url("../images/back\ img-7.png");
+}
+.card-8 {
+    background-image: url("../images/back\ img-8.png");
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .mainHeaderDiv {
+        padding: 16px 32px;
+    }
+    .watchBtn-2 {
+        display: none;
+    }
+    .cards {
+        width: 158px;
+    }
+    .card-1 {
+        background-image: url("../images/tablet\ back\ img-1.png");
+    }
+    .card-2 {
+        background-image: url("../images/tablet\ back\ img-2.png");
+    }
+    .card-3 {
+        background-image: url("../images/tablet\ back\ img-3.png");
+    }
+    .card-4 {
+        background-image: url("../images/tablet\ back\ img-4.png");
+    }
+    .card-5 {
+        background-image: url("../images/tablet\ back\ img-5.png");
+    }
+    .card-6 {
+        background-image: url("../images/tablet\ back\ img-6.png");
+    }
+    .card-7 {
+        background-image: url("../images/tablet\ back\ img-7.png");
+    }
+    .card-8 {
+        background-image: url("../images/tablet\ back\ img-8.png");
+    }
+
+    .section-3 {
+        gap: 32px;
+    }
+}
+@media screen and (max-width:767px) {
+    .mainHeaderDiv {
+        padding: 16px;
+    }
+    .moviesText, .seriesText {
+        display: none;
+    }
+    .burgerIcon {
+        display: block;
+    }
+    .mcCoyDiv a {
+        display: none;
+    }
+    .section-1 {
+        background-image: url("../images/batman\ car\ mobile\ .png");
+        background-size: cover;
+    }
+    .formDiv {
+        width: 288px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cardDiv {
+        flex-direction: column;
+    }
+    .watchBtn-2 {
+        display: none;
+    }
+    .cards {
+        width: 288px;
+    }
+    .card-1 {
+        background-image: url("../images/mobile\ back\ img-1.png");
+    }
+    .card-2 {
+        background-image: url("../images/mobile\ back\ img-2.png");
+    }
+    .card-3 {
+        background-image: url("../images/mobile\ back\ img-3.png");
+    }
+    .card-4 {
+        background-image: url("../images/mobile\ back\ img-4.png");
+    }
+    .card-5 {
+        background-image: url("../images/mobile\ back\ img-5.png");
+    }
+    .card-6 {
+        background-image: url("../images/mobile\ back\ img-6.png");
+    }
+    .card-7 {
+        background-image: url("../images/mobile\ back\ img-7.png");
+    }
+    .card-8 {
+        background-image: url("../images/mobile\ back\ img-8.png");
+    }
+}
